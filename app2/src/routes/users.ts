@@ -2,15 +2,10 @@ import { createServerFileRoute } from "@tanstack/react-start/server";
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 
-function getUsersFilePath() {
-  // Always use the same path, matching included_files in netlify.toml
-  return join(process.cwd(), "data/users.json");
-}
 
 async function readUsers() {
   try {
-    const filePath = getUsersFilePath();
-    const data = await readFile(filePath, "utf8");
+    const data = await readFile("/data/users.json", "utf8");
     return JSON.parse(data);
   } catch (error) {
     if (error.code === "ENOENT") {
