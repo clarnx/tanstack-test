@@ -228,5 +228,30 @@
       "catchPhrase": "Centralized empowering task-force",
       "bs": "target end-to-end models"
     }
+  },
+  {
+    "id": 1758373563536,
+    "name": "Marcus Rodriguez",
+    "username": "Marcus.Tech",
+    "email": "marcus.rodriguez@techflow.com",
+    "address": {
+      "street": "Innovation Boulevard",
+      "suite": "Floor 12",
+      "city": "Silicon Heights",
+      "zipcode": "94105-8821",
+      "geo": {
+        "lat": "37.7749",
+        "lng": "-122.4194"
+      }
+    },
+    "phone": "415-555-0198",
+    "website": "marcustech.io",
+    "company": {
+      "name": "DataFlow Systems",
+      "catchPhrase": "Streamlining tomorrow's digital solutions",
+      "bs": "revolutionize scalable infrastructures"
+    },
+    "createdAt": "2025-09-20T13:06:03.536Z",
+    "updatedAt": "2025-09-20T13:06:03.536Z"
   }
 ]
