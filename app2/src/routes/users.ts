@@ -11,7 +11,7 @@ function getUsersFilePath() {
   }
 
   // In production (Netlify), files are in the dist folder
-  return join(process.cwd(), 'dist/data/users.json');
+  return join(process.cwd(), 'data/users.json');
 }
 
 async function readUsers() {
