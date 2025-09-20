@@ -7,7 +7,7 @@ import { fileURLToPath } from "node:url";
 function getUsersFilePath() {
   
   if (process.env.NODE_ENV === "development") {
-    return join(process.cwd(), 'src/data/users.json');
+    return join(process.cwd(), 'public/data/users.json');
   }
 
   // In production (Netlify), files are in the dist folder
